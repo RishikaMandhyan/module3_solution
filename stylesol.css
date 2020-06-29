@@ -1,0 +1,48 @@
+body{
+	background-color: gray;
+}
+#nav1{
+	padding:15px;
+}
+.navbar-brand p{
+	float:left;
+	font-size: 1.5em
+
+
+}
+#contain {
+	background-color: pink;
+	height:2000px;
+	padding:30px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+	background-color: yellow;
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+@media (max-width: 767px) {
+	#contain{
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	#collapsable-nav a 
+  { 
+    font-size: 1.2em;
+  }
+}
