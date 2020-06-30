@@ -1,4 +1,8 @@
-body{
+*{
+	box-sizing:border-box;
+
+	}
+	body{
 	background-color: gray;
 }
 #nav1{
@@ -10,19 +14,29 @@ body{
 
 
 }
-#contain {
+.row{
+	width:100%;
+}
+#col1,#col2,#col3{
+	float:left;
+}
+#p1,#p2,#p3 {
+	
 	background-color: pink;
-	height:2000px;
+	height:750px;
 	padding:30px;
 	margin-top: 20px;
-	overflow: hidden;
+	margin:15px;
+	overflow:scroll;
+	
 }
+
 
 #nav-list {
   margin-top: 10px;
 }
 #nav-list a {
-	background-color: yellow;
+	
   color: black;
   text-align: center;
 }
